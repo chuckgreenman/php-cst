@@ -169,3 +169,8 @@ In the Lexer we are taking the raw PHP code and converting it into tokens, the p
 | T_XOR_EQUAL | ^= | assignment operators | ❌ |
 | T_YIELD | yield | generators | ❌ |
 | T_YIELD_FROM | yield from | generators | ❌ |
+
+
+## Parser
+
+There are a bunch of parser nodes that are outside of the lexer.
